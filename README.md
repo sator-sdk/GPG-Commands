@@ -45,7 +45,7 @@ If you have set up a public/private key pair, you can use your private key to si
 To sign and symmetrically encrypt file.txt using `AES256`, use the `--sign` option like this:
 
 ```shell
-`gpg --sign --symmetric --cipher-algo AES256 file.txt`
+gpg --sign --symmetric --cipher-algo AES256 file.txt
 ```
 
 Then to verify the signature and decrypt: 
